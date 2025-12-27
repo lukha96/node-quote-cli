@@ -1,0 +1,17 @@
+{
+  "name": "quote-cli",
+  "version": "1.0.0",
+  "description": "A simple Node.js CLI tool that prints a random motivational quote",
+  "main": "index.js",
+  "bin": {
+    "qquote": "./bin/quote.js"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": ["cli", "node", "quotes"],
+  "author": "Your Name",
+  "license": "ISC",
+  "type": "commonjs"
+}
+
