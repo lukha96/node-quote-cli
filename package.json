@@ -1,5 +1,5 @@
 {
-  "name": "quote-cli",
+  "name": "@lukha96/quote-cli",
   "version": "1.0.0",
   "description": "A simple Node.js CLI tool that prints a random motivational quote",
   "bin": {
@@ -8,22 +8,19 @@
   "scripts": {
     "test": "jest"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "keywords": [
     "cli",
     "node",
     "quotes"
   ],
-  "author": "Your Name",
+  "author": "lukha96",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
     "jest": "^29.0.0"
   }
 }
-{
-  "name": "@lukha96/quote-cli",
-  "version": "1.0.0",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  }
-}
+
